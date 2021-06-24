@@ -1,0 +1,26 @@
+h4{
+    font-size: 17px;
+    margin: 4px;
+    color:whitesmoke;
+    padding-left:10px;
+   
+}
+
+.list-group{
+    width: 70%;
+    margin: 0 auto;
+    background-color: #79bff8f1;
+    border:thin dotted gray;
+  
+}
+
+ul h1{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 5px;
+    background-color:  #15628f;
+    color:white;
+    padding-top:6px;
+    padding-bottom: 6px;
+    font-weight:normal;
+}

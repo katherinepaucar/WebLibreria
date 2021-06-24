@@ -1,0 +1,116 @@
+body{
+  background-color: #b2dfdb;
+}
+nav a{
+   color:navy;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration:none;
+   margin-left:5px
+   
+   
+}
+
+.estilo_header{
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   height: 200px;
+   background-color: #15628f;
+   font-weight: bold;
+   background-image: url(../images/libros.jpg);
+
+ 
+}
+.minh-100 {
+   height: 20vh;
+ }
+ 
+ #titulo{
+   
+   background-color: #ffffff;
+   opacity: 0.6;
+   border: 1px dotted cornflowerblue;
+   color: navy;
+ 
+}
+
+.estilobarra{
+   height: 70px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   background-color: #f8f9fa;
+}
+
+ .border {
+   border-width:5px !important;
+   border-color: transparent !important;
+ }
+ 
+ .seccion{
+   background-color: white;
+   
+}
+ 
+form{
+   width: 70%;
+   margin: 0 auto;
+   padding: 15px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   background-color: #565676;
+}
+ 
+.footer{
+   background-color: #15628f; 
+   height: 60px;
+   text-align: center;
+   margin-top:5px;
+   color:white;
+
+ }
+   
+.active{
+   background-color: #6ab7ff !important;
+
+}
+#lista{
+   margin-top: 25px;
+   margin-bottom: 25px;
+   
+}
+.textoestilo{
+   background: rgb(238,174,202);
+   background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  color: white;
+}
+
+img:hover{
+   cursor: pointer;
+}
+.fotoestilo:hover{
+   border:2px dotted purple;
+}
+
+@media(max-width: 992px){
+   .barra-nav{
+      height: 119px;
+      }
+}
+@media(max-width: 768px){
+   .barra-nav{
+   height: 119px;
+   }
+
+
+ }
+
+ @media(max-width: 300px){
+   .barra-nav{
+   height: 119px;
+   }
+     
+   }
+
+ 
+

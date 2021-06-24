@@ -1,0 +1,21 @@
+caption{
+   text-align: center;
+   caption-side: top;
+   font-size: 22px;
+
+}
+
+table{
+   border:thin dotted gray;
+   width: 90% !important;
+   margin: 0 auto;
+   margin-top: 25px;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #79bff8f1;
+}
+caption{
+   background-color:  #15628f;
+   color:white;
+ }
+ 

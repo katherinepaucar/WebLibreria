@@ -1,0 +1,39 @@
+.seccion{
+    background-color: white;
+    
+  }
+  
+  form{
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #aed5f5f1;
+    
+    }
+
+.form-group.success input, 
+.form-group.success select,
+.form-group.success textarea{
+
+  border-bottom:2px solid #088A08 ;
+}
+.form-group small{
+  color:#e74c3c;
+  visibility: hidden;
+}
+.form-group.error small{
+  visibility: visible;
+}
+.form-group.error input ,
+.form-group.error select,
+.form-group.error textarea{
+    border-bottom: 2px solid red;
+}
+
+legend{
+background-color:  #15628f;
+color:white;
+
+}
